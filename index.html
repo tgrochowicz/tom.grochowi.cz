@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>tgrochowicz.com</title>
+		<title>tom.grochowi.cz</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
 	</head>	
@@ -12,12 +12,19 @@
 			</div>
 			<div id="nav">
 				<ul class="nav nav-pills">
-					<li class="active"><a href="/about">About</a>
-					<li><a href="/resume">Resume</a>
-					<li><a href="/contact">Contact</a>
+					<li class="active"><a href="#" data-tab="about">About</a>
+					<li><a href="#" data-tab="resume">Resume</a>
+					<li><a href="#" data-tab="contact">Contact</a>
 				</ul>
 			</div>
-			<div id="content">
+			<div id="about" class="content">
+				<h3>about</h3>
+			</div>
+			<div id="resume" class="content hidden">
+				<h3>resume</h3>
+			</div>
+			<div id="contact" class="content hidden">
+				<h3>contact</h3>
 			</div>
 			<div id="footer">
 			</div>
@@ -25,7 +32,8 @@
 
 		
 
-		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

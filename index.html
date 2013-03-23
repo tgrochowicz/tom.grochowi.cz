@@ -11,29 +11,28 @@
 				<h1>TOM.GROCHOWI.CZ</h1>
 			</div>
 			<div id="nav">
-				<ul class="nav nav-pills">
-					<li class="active"><a href="#" data-tab="about">About</a>
-					<li><a href="#" data-tab="resume">Resume</a>
-					<li><a href="#" data-tab="contact">Contact</a>
+				<ul class="nav nav-pills" id="tabs">
+                    <li class="active"><a href="#" data-target="#about" data-toggle="pill">About</a></li>
+                    <li><a href="#" data-target="#resume" data-toggle="pill">Resume</a></li>
+                    <li><a href="#" data-target="#contact" data-toggle="pill">Contact</a></li>
 				</ul>
 			</div>
-			<div id="about" class="content">
-				<h3>about</h3>
-			</div>
-			<div id="resume" class="content hidden">
-				<h3>resume</h3>
-			</div>
-			<div id="contact" class="content hidden">
-				<h3>contact</h3>
-			</div>
+            <div class="tab-content">
+                <div id="about" class="content tab-pane active">
+                    <h3>about</h3>
+                </div>
+                <div id="resume" class="content tab-pane">
+                    <h3>resume</h3>
+                </div>
+                <div id="contact" class="content tab-pane">
+                    <h3>contact</h3>
+                </div>
+            </div>
 			<div id="footer">
 			</div>
 		</div>
 
-		
-
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
 	</body>
 </html>

@@ -26,3 +26,8 @@ background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 .hidden {
 	display: none;
 }
+img.profile {
+	width: 90px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
